@@ -1,0 +1,8 @@
+{% extends "NewsBundle::layout.html.twig" %}
+
+{% block content %}
+    <h4><a href="{{ path('news_main') }}">{{ article.title }}</a></h4>
+    <br>
+    <h4>{{ article.content }}</h4>
+{% endblock %}
+

@@ -1,0 +1,14 @@
+news_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: NewsBundle:Default:index }
+
+news_main:
+    path:     /news
+    defaults: { _controller: NewsBundle:News:index }
+
+newsa_main:
+    path:     /news/{slug}
+    defaults: { _controller: NewsBundle:News:show }
+    
+
+    

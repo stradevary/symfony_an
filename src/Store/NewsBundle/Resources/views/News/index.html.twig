@@ -1,0 +1,7 @@
+{% extends "NewsBundle::layout_1.html.twig" %}
+
+{% block head %}
+  {% for news in news %}
+    <h4><a href="{{ path('newsa_main', {'slug': news.slug}) }}">{{news.title}}</a></h4>
+  {%endfor%}
+{% endblock %}

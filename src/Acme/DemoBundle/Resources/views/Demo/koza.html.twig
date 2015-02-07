@@ -1,0 +1,13 @@
+{% extends "AcmeDemoBundle::layout.html.twig" %}
+
+{% block title "koza " ~ name %}
+
+{% block content %}
+    <h1><a href="{{ path('_demo_hello', {'name': name}) }}">koza {{ name }}!</a></h1>
+{% endblock %}
+
+{% set code = code(_self) %}
+
+
+    
+    
