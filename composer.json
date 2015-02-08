@@ -18,8 +18,11 @@
         "sensio/distribution-bundle": "~3.0.12",
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
-	"braincrafted/bootstrap-bundle" : "dev-master"
-    },
+	"braincrafted/bootstrap-bundle" : "dev-master",
+        "sonata-project/admin-bundle": "~2.3",
+        "sonata-project/doctrine-orm-admin-bundle": "~2.3",
+        "sonata-project/core-bundle": "~2.3"
+		    },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
     },
